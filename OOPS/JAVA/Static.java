@@ -14,5 +14,10 @@ public class Static {
         */
         // System.out.println(a); --> Method1
 
+        //Method 2
+        Static obj = new Static();
+
+        System.out.println(obj.a);
+
     }
 }
