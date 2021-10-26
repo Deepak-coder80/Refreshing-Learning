@@ -1,0 +1,4 @@
+when a fuction(methode) or variable is static in java
+it can only call other static methodes.
+
+if a variable is static it has common space.
