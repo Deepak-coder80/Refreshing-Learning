@@ -14,6 +14,7 @@ public class Polymorphism {
 
         SMOverriding obj = new SMOverriding();
         obj.dispaly();
+        obj.superclassHello();
     }
     
 }
@@ -35,5 +36,9 @@ class MOverriding{
 class SMOverriding extends MOverriding{
     void dispaly(){
         System.out.println("Overriding display from sub class");
+    }
+    //super class
+    void superclassHello(){
+        super.dispaly();
     }
 }
