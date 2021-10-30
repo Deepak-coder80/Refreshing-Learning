@@ -16,3 +16,22 @@ STRUCTURE
     *Memory is allocated on stack.
     *not null variables possible
     * purpose is for grouping the datas
+
+CLASS:
+
+    It is defined as a collection of related variables and function contained
+    with in a single structure.
+
+    If no access specifier is defined , all members are set to 
+    private.
+
+    declaration: class class_name{
+                    data member;
+                    member function;
+                }
+    
+    A class instance is called object.
+
+    Memory allocated on the heap
+
+    It may have null values.
