@@ -16,10 +16,17 @@ class Box{
             2. using scope resolution operator(::)
         */
        //METHOD 1
-       double getVolume(){
-           return length*height*width;
-       }
+    //    double getVolume(){
+    //        return length*height*width;
+    //    }
+        // METHOD 2 :
+        //function declaration
+        double getVolume();
 };
+
+double Box::getVolume(){
+    return length*height*width;
+}
 
 int main(){
     //object for Box class
