@@ -35,3 +35,10 @@ CLASS:
     Memory allocated on the heap
 
     It may have null values.
+
+SIMILARITIES:
+
+    Both class and structure may declare any of their members private.
+    Both class and structure support inheritance mechanisms.
+    Both class and structure are syntactically identical in C++.
+    A class's or structure's name may be used as a stand-alone type.
