@@ -1,0 +1,18 @@
+STRUCTURE 
+
+    it is a group of variable of various data types reference
+    by same name. If no access specifier is stecified , all members are set
+    public.
+
+    declaration: struct structure_name{
+                    type struct_member 1;
+                    type struct_member 2;
+                    .
+                    .
+                    type struct_member N;
+                }
+    
+    Instance : structure instance is called structure variable.
+    *Memory is allocated on stack.
+    *not null variables possible
+    * purpose is for grouping the datas
