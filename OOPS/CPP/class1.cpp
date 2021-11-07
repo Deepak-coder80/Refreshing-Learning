@@ -21,7 +21,9 @@ class Box{
     //    }
         // METHOD 2 :
         //function declaration
+        void input();
         double getVolume();
+        
 };
 
 double Box::getVolume(){
