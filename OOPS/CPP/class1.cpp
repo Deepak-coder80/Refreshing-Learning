@@ -25,6 +25,11 @@ class Box{
         double getVolume();
         
 };
+void Box::input(){
+     box1.height=3;
+    box1.length=3;
+    box1.width=3;
+}
 
 double Box::getVolume(){
     return length*height*width;
@@ -34,9 +39,7 @@ int main(){
     //object for Box class
     Box box1;
 
-    box1.height=3;
-    box1.length=3;
-    box1.width=3;
+   
 
     cout<<"Box Height : "<<box1.height<<endl;
     cout<<"Box Length : "<<box1.length<<endl;
