@@ -39,7 +39,7 @@ int main(){
     //object for Box class
     Box box1;
 
-   
+    box.input();
 
     cout<<"Box Height : "<<box1.height<<endl;
     cout<<"Box Length : "<<box1.length<<endl;
